@@ -1,0 +1,73 @@
+.App {
+  margin: 0;
+}
+
+.header {
+  background-color: #010d25de;
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.sub-header {
+  font-weight: 300;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  min-height: 100vh;
+  width: 200vh;
+  z-index: 20;
+  margin-top: -5em;
+  margin-bottom: 8em;
+}
+
+.body-text {
+  font-size: 4em;
+  font-weight: 600;
+  /* background-color: #010d25de;
+  color: white; */
+}
+
+.svg-img {
+  padding: 2em;
+  align-items: center;
+}
+
+.footer {
+  font-size: 4em;
+  font-weight: 600;
+  background-color: #010d25d2;
+  color: white;
+  min-height: 50vh;
+}
+
+.svg-img {
+  /* #e17b7e; */
+  height: 80vh;
+  background-size: contain;
+}
+
+.icon_class {
+  min-height: 30vh;
+  min-width: 30vh;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0.5rem;
+ 
+}
+
+.icon {
+  font-size: 2em;
+  align-content: center;
+  
+}
